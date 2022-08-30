@@ -1,7 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import { Reset } from 'styled-reset';
 import theme from './theme';
-import Home from "./home";
+import Home from "./Home";
 
 function App() {
   return (
