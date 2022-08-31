@@ -16,10 +16,15 @@ export const MarvelLogo = styled.img`
 
 export const SiteContainer = styled.main`
   display: flex;
-  background-color: lightgoldenrodyellow;
+  justify-content: center;
+  background-color: black;
   width: 100vw;
   height: calc(100vh - ${(props) => props.theme.sizes.headerHeight});
   font-family: ${(props) => props.theme.fonts.regular};
   font-size: ${(props) => props.theme.sizes.text};
   padding: 16px;
+`;
+
+export const Body = styled.body`
+  overflow: hidden;
 `;
